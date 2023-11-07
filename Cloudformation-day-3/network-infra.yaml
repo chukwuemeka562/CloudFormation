@@ -2,7 +2,11 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: This template provisions our dev network environment
 Metadata: {}
 
-Parameters: {}
+Parameters: 
+  paramName:
+    Description: 
+    Type: String|Number|CommaDelimitedList
+    Default: -
 
 Mappings: {}
 

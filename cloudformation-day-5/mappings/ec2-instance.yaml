@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: "ec2 instance automation for dev env"
+Metadata: {}
+
+Parameters:
+  DevWebserverKeyName:
+    Description: Please select a key pair
+    Type: AWS::EC2::KeyPair::KeyName
+
+Mappings: 
+  DevWebserverGoldenAMImap: 
+    us-east-1:
+      GoldenAMI: ami-0fc5d935ebf8bc3bc
+    us-east-2:
+      GoldenAMI: ami-0e83be366243f524a
+    us-west-1:
+      GoldenAMI: ami-0cbd40f694b804622
+    us-west-2:
+      GoldenAMI: ami-0efcece6bed30fd98
+      
+Conditions: {}
+
+Resources: 
+  
+  
+
+Outputs: {}

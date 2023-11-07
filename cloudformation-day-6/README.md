@@ -1,0 +1,1 @@
+NB: the command is in region ohio us-east-2
